@@ -285,4 +285,32 @@ ul {
     display: flex;
     gap: 8px;
     align-items: center;
-} 
+}
+
+/* --- BEGIN: Copied from style.css for RTL (Farsi) version --- */
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("font-awesome.css");
+@import url("flaticon.css");
+@import url("animate.css");
+@import url("hover.css");
+@import url("owl.css");
+@import url("jquery-ui.css");
+@import url("jquery.fancybox.min.css");
+@import url("jquery.bootstrap-touchspin.css");
+
+/* Reset, Global, and all other styles from style.css go here... */
+
+/* --- END: Copied from style.css --- */
+
+/* --- BEGIN: RTL overrides for Farsi version --- */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Example RTL override: */
+/* .main-header .top-left { float: right; } */
+/* .main-header .top-right { float: left; } */
+/* ... (all previous and new RTL overrides remain here) ... */
+
+/* --- END: RTL overrides --- */ 
