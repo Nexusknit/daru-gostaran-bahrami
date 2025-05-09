@@ -7,29 +7,47 @@ body {
 }
 
 /* Header Styles */
-.main-header .top-left {
-    float: right;
+.main-header .top-outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.main-header .top-right {
-    float: left;
+.main-header .main-box .outer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-header .logo-box {
-    float: right;
+    margin-left: 40px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
 }
 
 .main-header .nav-outer {
-    float: left;
+    margin-left: 0;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .main-header .outer-box {
-    float: left;
+    margin-left: 20px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
 }
 
 /* Navigation Menu */
 .main-menu .navigation > li {
-    float: right;
+    margin-left: 24px;
+    margin-right: 0;
+}
+
+.main-menu .navigation > li:last-child {
+    margin-left: 0;
 }
 
 .main-menu .navigation > li > a {
@@ -42,8 +60,15 @@ body {
 }
 
 /* Header Lower Section */
+.header-lower .auto-container.clearfix {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
 .header-lower .lower-left {
-    float: right;
+    display: flex;
+    gap: 32px;
 }
 
 .header-lower .lower-right {
@@ -52,9 +77,30 @@ body {
 
 /* Info Boxes */
 .upper-column.info-box {
-    float: right;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
     margin-right: 0;
-    margin-left: 30px;
+    min-width: 220px;
+}
+
+.upper-column.info-box .icon-box {
+    margin-left: 12px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+}
+
+.upper-column.info-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.upper-column.info-box li {
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 /* Services Section */
@@ -125,6 +171,23 @@ textarea {
 
 /* Responsive Adjustments */
 @media only screen and (max-width: 991px) {
+    .main-header .main-box .outer-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .main-header .logo-box,
+    .main-header .nav-outer,
+    .main-header .outer-box {
+        margin: 0 0 16px 0;
+    }
+    .header-lower .auto-container.clearfix {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header-lower .lower-left {
+        flex-direction: column;
+        gap: 12px;
+    }
     .main-menu .navigation {
         float: right;
     }
@@ -215,4 +278,11 @@ ul {
 
 .sticky-header .nav-outer {
     float: left;
+}
+
+/* --- LANGUAGE SWITCHER --- */
+.main-header .top-right ul.links {
+    display: flex;
+    gap: 8px;
+    align-items: center;
 } 
