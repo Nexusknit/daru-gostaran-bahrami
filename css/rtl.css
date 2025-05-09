@@ -313,4 +313,19 @@ body {
 /* .main-header .top-right { float: left; } */
 /* ... (all previous and new RTL overrides remain here) ... */
 
-/* --- END: RTL overrides --- */ 
+/* --- END: RTL overrides --- */
+
+/* Force RTL direction for all text elements in Farsi pages */
+.text,
+p,
+li,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    direction: rtl !important;
+    text-align: right;
+} 
