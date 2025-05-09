@@ -1,0 +1,218 @@
+/* RTL Styles for Farsi Version */
+
+/* General RTL Rules */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Header Styles */
+.main-header .top-left {
+    float: right;
+}
+
+.main-header .top-right {
+    float: left;
+}
+
+.main-header .logo-box {
+    float: right;
+}
+
+.main-header .nav-outer {
+    float: left;
+}
+
+.main-header .outer-box {
+    float: left;
+}
+
+/* Navigation Menu */
+.main-menu .navigation > li {
+    float: right;
+}
+
+.main-menu .navigation > li > a {
+    padding: 0 0 0 30px;
+}
+
+.main-menu .navigation > li > a:before {
+    right: 0;
+    left: auto;
+}
+
+/* Header Lower Section */
+.header-lower .lower-left {
+    float: right;
+}
+
+.header-lower .lower-right {
+    float: left;
+}
+
+/* Info Boxes */
+.upper-column.info-box {
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+/* Services Section */
+.services-block-two .icon-box {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.services-block-two .know-more .icon {
+    margin-right: 0;
+    margin-left: 5px;
+    transform: rotate(180deg);
+}
+
+/* Quote Form */
+.quote-form .form-group {
+    float: right;
+}
+
+.quote-form .theme-btn .icon {
+    margin-right: 0;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+
+/* Footer */
+.main-footer .column {
+    float: right;
+}
+
+.main-footer .social-icon-one li {
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Text Alignment */
+.text {
+    text-align: right;
+}
+
+/* Form Elements */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    text-align: right;
+}
+
+/* Icons and Arrows */
+.icon {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.flaticon-right-arrow-1,
+.flaticon-arrow-pointing-to-right {
+    transform: rotate(180deg);
+}
+
+/* Call to Action Button */
+.theme-btn .icon {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 991px) {
+    .main-menu .navigation {
+        float: right;
+    }
+    
+    .main-menu .navigation > li {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-top .top-left,
+    .header-top .top-right {
+        float: none;
+        text-align: center;
+    }
+    
+    .services-block-two {
+        float: right;
+    }
+}
+
+/* Fix for Revolution Slider */
+.tp-leftarrow {
+    right: 20px;
+    left: auto;
+}
+
+.tp-rightarrow {
+    left: 20px;
+    right: auto;
+}
+
+/* Fix for Bootstrap Grid */
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: right;
+}
+
+/* Fix for Pull Classes */
+.pull-left {
+    float: right !important;
+}
+
+.pull-right {
+    float: left !important;
+}
+
+/* Fix for Margin and Padding */
+.ml-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+.mr-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+/* Fix for List Items */
+ul {
+    padding-right: 0;
+}
+
+/* Fix for Social Icons */
+.social-icon-one li {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Fix for Custom Select Box */
+.custom-select-box {
+    text-align: right;
+    padding-right: 15px;
+    padding-left: 30px;
+}
+
+/* Fix for Navigation Toggle */
+.navbar-toggle {
+    float: left;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/* Fix for Sticky Header */
+.sticky-header .logo-box {
+    float: right;
+}
+
+.sticky-header .nav-outer {
+    float: left;
+} 
