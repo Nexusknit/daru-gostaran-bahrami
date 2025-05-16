@@ -1,15 +1,19 @@
+/* rtl.css — استایل پایه برای نسخهٔ فارسی (RTL) */
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap");
 
-/* Force RTL direction for all text elements in Farsi pages */
-.text,
-p,
-li,
-span,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    direction: rtl !important;
-    
-} 
+/* تمام صفحات با dir="rtl" این قواعد را به‌ ارث می‌برند */
+[dir="rtl"] {
+  font-family: "Vazirmatn", sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+/* چند کمک‌کلاس معادل margin/padding چپ-راست Bootstrap */
+[dir="rtl"] .ms-auto { margin-left: auto !important; margin-right: 0 !important; }
+[dir="rtl"] .me-auto { margin-right: auto !important; margin-left: 0 !important; }
+[dir="rtl"] .ps-3   { padding-right: 1rem !important; padding-left: 0 !important; }
+[dir="rtl"] .pe-3   { padding-left: 1rem  !important; padding-right: 0 !important; }
+
+/* در صورت نیاز به چرخش آیکن‌های فلش FontAwesome */
+[dir="rtl"] .fa-chevron-right:before { content: "\f053"; } /*←*/
+[dir="rtl"] .fa-chevron-left:before  { content: "\f054"; } /*→*/
