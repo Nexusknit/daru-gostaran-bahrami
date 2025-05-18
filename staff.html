@@ -1,86 +1,107 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>DGBahrami Pharmaceutical Company | Staff</title>
 
     <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
-    <!--<link href="css/color.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 
     <link rel="shortcut icon" href="images/LogoBig.png" type="image/x-icon" />
     <link rel="icon" href="images/LogoBig.png" type="image/x-icon" />
-    <!-- Responsive -->
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
     />
-    <!--[if lt IE 9
-      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
-    ><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <script src="js/respond.js"></script>
+    <![endif]-->
   </head>
 
   <body>
     <div class="page-wrapper">
-      <!-- Preloader -->
+      <!-- ========== Pre-loader ========== -->
       <div class="preloader"></div>
 
-      <!-- Main Header-->
+      <!-- ========== Header ========== -->
       <header class="main-header header-style-two">
-        <!-- Header Top -->
+        <!-- ===== Top bar ===== -->
         <div class="header-top">
           <div class="auto-container">
             <div class="top-outer clearfix">
-              <!-- Top Left: Updated with company contact details -->
               <div class="top-left">
                 <ul class="links clearfix">
                   <li>
-                    <a href="tel:+989123442422"
-                      ><span class="icon fa fa-phone"></span> +98-9123442422</a
-                    >
+                    <a href="tel:+989123442422">
+                      <span class="icon fa fa-phone"></span> +98-912-344-2422
+                    </a>
                   </li>
                   <li>
-                    <a href="mailto:office@dgbahrami.com"
-                      ><span class="icon fa fa-envelope-o"></span>
-                      office@dgbahrami.com</a
-                    >
+                    <a href="mailto:office@dgbahrami.com">
+                      <span class="icon fa fa-envelope-o"></span>
+                      office@dgbahrami.com
+                    </a>
                   </li>
                 </ul>
               </div>
-              <!-- Top Right: Minimized content -->
+
+              <!-- Language switcher -->
               <div class="top-right clearfix">
-                <!-- Optionally, add language dropdown or leave empty -->
+                <div id="lang-switch" class="d-inline-flex align-items-center">
+                  <a href="staff.html" class="d-flex align-items-center px-2">
+                    <img
+                      src="images/flags/gb.svg"
+                      width="22"
+                      height="16"
+                      class="me-1"
+                      alt="English"
+                    />
+                    EN
+                  </a>
+                  <span class="text-muted">|</span>
+                  <a
+                    href="staff-fa.html"
+                    class="d-flex align-items-center px-2"
+                  >
+                    <img
+                      src="images/flags/ir.svg"
+                      width="22"
+                      height="16"
+                      class="me-1"
+                      alt="فارسی"
+                    />
+                    FA
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- Header Top End -->
+        <!-- /Top bar -->
 
-        <!-- Main Box -->
+        <!-- ===== Main Box ===== -->
         <div class="main-box">
           <div class="auto-container">
             <div class="outer-container clearfix">
-              <!-- Logo Box: Added alt text for accessibility -->
+              <!-- Logo -->
               <div class="logo-box">
-                <div class="logo">
-                  <a href="index.html"
-                    ><img
-                      src="images/LogoBig.png"
-                      alt="Darou Gostaran Bahrami Logo"
-                      style="max-width: 60px"
-                  /></a>
-                </div>
+                <a href="index.html"
+                  ><img
+                    src="images/LogoBig.png"
+                    alt="Darou Gostaran Bahrami"
+                    style="max-width: 60px"
+                /></a>
               </div>
-              <!-- Nav Outer -->
+
+              <!-- Navigation -->
               <div class="nav-outer clearfix">
-                <!-- Main Menu: Simplified navigation -->
                 <nav class="main-menu">
                   <div class="navbar-header">
-                    <!-- Toggle Button for mobile navigation -->
                     <button
                       type="button"
                       class="navbar-toggle"
@@ -95,56 +116,58 @@
                   <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
                       <li><a href="index.html">Home</a></li>
-                      <li><a href="staff.html">Staff</a></li>
+                      <li class="current"><a href="staff.html">Staff</a></li>
                       <li>
-                        <a href="business-profile.html">Business Profile</a>
+                        <a href="business-profile.html"
+                          >Business&nbsp;Profile</a
+                        >
                       </li>
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="about.html">About&nbsp;Us</a></li>
+                      <li><a href="contact.html">Contact&nbsp;Us</a></li>
                       <li>
                         <a href="data/druglist.pdf" target="_blank"
-                          >Drug List</a
+                          >Drug&nbsp;List</a
                         >
                       </li>
                     </ul>
                   </div>
                 </nav>
-                <!-- Main Menu End -->
-                <!-- Outer Box: CTA button updated -->
+
                 <div class="outer-box">
-                  <a href="contact.html" class="theme-btn quote-btn"
-                    >Get in Touch <span class="icon icon-two"></span
-                  ></a>
+                  <a href="contact.html" class="theme-btn quote-btn">
+                    Get in Touch <span class="icon icon-two"></span>
+                  </a>
                 </div>
               </div>
-              <!-- Nav Outer End -->
             </div>
           </div>
         </div>
+        <!-- /Main Box -->
 
-        <!-- Header Lower: Updated info boxes with company focus -->
+        <!-- ===== Info Boxes ===== -->
         <div class="header-lower">
           <div class="auto-container clearfix">
             <div class="lower-left pull-left">
-              <!-- Info Box: Licensed Importer -->
               <div class="upper-column info-box">
                 <div class="icon-box">
                   <span class="flaticon-signature"></span>
                 </div>
                 <ul>
-                  <li><strong>Licensed Importer</strong>Under Iran's FDA</li>
+                  <li>
+                    <strong>Licensed Importer</strong>Under Iran's&nbsp;FDA
+                  </li>
                 </ul>
               </div>
-              <!-- Info Box: Expansion details -->
               <div class="upper-column info-box">
                 <div class="icon-box">
                   <span class="flaticon-three-buildings"></span>
                 </div>
                 <ul>
-                  <li><strong>Expanding to</strong>Armenia & Iraq</li>
+                  <li>
+                    <strong>Expanding to</strong>Armenia&nbsp;&amp;&nbsp;Iraq
+                  </li>
                 </ul>
               </div>
-              <!-- Info Box: Company focus -->
               <div class="upper-column info-box">
                 <div class="icon-box">
                   <span class="flaticon-engineer-1"></span>
@@ -154,31 +177,24 @@
                 </ul>
               </div>
             </div>
-            <div class="lower-right pull-right"></div>
           </div>
         </div>
 
-        <!-- Sticky Header -->
+        <!-- ===== Sticky Header ===== -->
         <div class="sticky-header">
           <div class="auto-container">
             <div class="outer-container clearfix">
-              <!-- Logo Box -->
               <div class="logo-box pull-left">
-                <div class="logo">
-                  <a href="index.html"
-                    ><img
-                      src="images/LogoBig.png"
-                      alt="Darou Gostaran Bahrami Logo"
-                      style="max-width: 60px"
-                  /></a>
-                </div>
+                <a href="index.html"
+                  ><img
+                    src="images/LogoBig.png"
+                    alt="Darou Gostaran Bahrami"
+                    style="max-width: 60px"
+                /></a>
               </div>
-              <!-- Nav Outer -->
               <div class="nav-outer clearfix">
-                <!-- Main Menu -->
                 <nav class="main-menu">
                   <div class="navbar-header">
-                    <!-- Toggle Button -->
                     <button
                       type="button"
                       class="navbar-toggle"
@@ -193,31 +209,30 @@
                   <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
                       <li><a href="index.html">Home</a></li>
-                      <li><a href="staff.html">Staff</a></li>
+                      <li class="current"><a href="staff.html">Staff</a></li>
                       <li>
-                        <a href="business-profile.html">Business Profile</a>
+                        <a href="business-profile.html"
+                          >Business&nbsp;Profile</a
+                        >
                       </li>
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="about.html">About&nbsp;Us</a></li>
+                      <li><a href="contact.html">Contact&nbsp;Us</a></li>
                       <li>
                         <a href="data/druglist.pdf" target="_blank"
-                          >Drug List</a
+                          >Drug&nbsp;List</a
                         >
                       </li>
                     </ul>
                   </div>
                 </nav>
-                <!-- Main Menu End -->
               </div>
-              <!-- Nav Outer End -->
             </div>
           </div>
         </div>
-        <!-- End Sticky Header -->
       </header>
-      <!--End Main Header -->
+      <!-- ========== /Header ========== -->
 
-      <!--Page Title-->
+      <!-- ========== Page title ========== -->
       <section
         class="page-title"
         style="background-image: url(images/background/staff.jpeg)"
@@ -230,22 +245,19 @@
           <h1>Staff</h1>
         </div>
       </section>
-      <!--End Page Title-->
 
-      <!--Sidebar Page Container-->
+      <!-- ========== Staff Section ========== -->
       <div class="sidebar-page-container">
         <div class="auto-container">
           <div class="row clearfix">
-            <!--Content Side-->
             <div class="content-side col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <!--Market Single-->
               <div class="market-single">
                 <div class="inner-box">
                   <div class="lower-content">
-                    <!--Stats Box-->
                     <div class="stats-box">
                       <div class="stats-inner">
                         <div class="row clearfix">
+                          <!-- Dr Bita -->
                           <div class="column col-md-4 col-sm-12 col-xs-12">
                             <div class="author-img">
                               <img
@@ -258,43 +270,38 @@
                           <div class="column col-md-8 col-sm-12 col-xs-12">
                             <h3>Dr. Bita Bahrami</h3>
                             <div class="role">
-                              PharmD, R&D and Regulatory Specialist
+                              PharmD — R&amp;D &amp; Regulatory Specialist
                             </div>
-                            <div class="description">
-                              <p>
-                                Dr. Bita Bahrami is a licensed Doctor of
-                                Pharmacy based in Tehran, Iran. She spearheads
-                                our R&D efforts and ensures compliance with
-                                Iran's Food and Drug Administration for
-                                pharmaceutical importation licensing. As the
-                                primary liaison with domestic drug producers and
-                                distributors, she plays a crucial role in
-                                maintaining our high standards of quality and
-                                regulatory adherence.
-                              </p>
-                            </div>
-                            <div class="contact-info">
-                              <p>
-                                Email:
-                                <a href="mailto:Drbitabahrami@gmail.com"
-                                  >Drbitabahrami@gmail.com</a
-                                >
-                              </p>
-                              <p>
-                                WhatsApp:
-                                <a href="https://wa.me/989123442422"
-                                  >+98-9123442422</a
-                                >
-                              </p>
-                            </div>
+                            <p>
+                              Dr. Bahrami spearheads R&amp;D and ensures full
+                              compliance with Iran’s FDA for all import
+                              licences. She liaises with domestic producers and
+                              distributors to maintain uncompromising quality.
+                            </p>
+                            <p class="mb-1">
+                              <strong>Email:</strong>
+                              <a href="mailto:Drbitabahrami@gmail.com"
+                                >Drbitabahrami@gmail.com</a
+                              >
+                            </p>
+                            <p>
+                              <strong>WhatsApp:</strong>
+                              <a href="https://wa.me/989123442422"
+                                >+98-912-344-2422</a
+                              >
+                            </p>
                           </div>
                         </div>
+
+                        <hr />
+
                         <div class="row clearfix">
+                          <!-- Benjamin -->
                           <div class="column col-md-4 col-sm-12 col-xs-12">
                             <div class="author-img">
                               <img
                                 src="images/resource/Benjamin.PNG"
-                                alt="Dr. Bita Bahrami"
+                                alt="Benjamin Bahrami"
                                 style="max-height: 300px"
                               />
                             </div>
@@ -302,170 +309,55 @@
                           <div class="column col-md-8 col-sm-12 col-xs-12">
                             <h3>Benjamin Bahrami</h3>
                             <div class="role">
-                              MD (in training), International Relations
+                              MD (in training) — International Relations
                             </div>
-                            <div class="description">
-                              <p>
-                                Benjamin Bahrami serves as the international
-                                face of Darou Gostaran Bahrami. As an MD in
-                                training and a citizen of both the United States
-                                and the European Union, he is uniquely
-                                positioned to secure international payments and
-                                forge global partnerships. Benjamin travels
-                                extensively to meet with pharmaceutical
-                                producers worldwide, ensuring our supply chain
-                                is robust and diverse.
-                              </p>
-                            </div>
-                            <div class="contact-info">
-                              <p>
-                                Email:
-                                <a href="mailto:benjaminblue247@icloud.com"
-                                  >benjaminblue247@icloud.com</a
-                                >
-                              </p>
-                              <p>
-                                WhatsApp:
-                                <a href="https://wa.me/447949500858"
-                                  >+44-7949500858</a
-                                >
-                              </p>
-                            </div>
+                            <p>
+                              Benjamin is the international face of DGB,
+                              leveraging dual US-EU citizenship to secure
+                              payments and partnerships worldwide. He travels
+                              extensively to cultivate a resilient, diverse
+                              supply-chain.
+                            </p>
+                            <p class="mb-1">
+                              <strong>Email:</strong>
+                              <a href="mailto:benjaminblue247@icloud.com"
+                                >benjaminblue247@icloud.com</a
+                              >
+                            </p>
+                            <p>
+                              <strong>WhatsApp:</strong>
+                              <a href="https://wa.me/447949500858"
+                                >+44-7949-500-858</a
+                              >
+                            </p>
                           </div>
                         </div>
+                        <!-- /row -->
                       </div>
                     </div>
+                    <!-- /stats-box -->
                   </div>
                 </div>
               </div>
+              <!-- /market-single -->
             </div>
           </div>
         </div>
       </div>
 
-      <!--Quote Form-->
-      <div class="modal fade" id="schedule-box" tabindex="-1" role="dialog">
-        <div class="modal-dialog popup-container container" role="document">
-          <div class="modal-content">
-            <div class="appoinment_form_wrapper clear_fix">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <i class="fa fa-times" aria-hidden="true"></i>
-              </button>
-              <div
-                class="get-quote-form"
-                style="background-image: url(images/background/13.jpg)"
-              >
-                <div class="inner-box">
-                  <!--Sec Title-->
-                  <div class="sec-title">
-                    <div class="clearfix">
-                      <div class="pull-left">
-                        <h2>Get a Quote</h2>
-                        <div class="separator centered"></div>
-                      </div>
-                      <div class="pull-left">
-                        <div class="text">
-                          Get a free quote for your industrial or engineering
-                          business solutions, We are here 24/7.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Quote Form / Style Two-->
-                  <div class="quote-form style-two">
-                    <!--Shipping Form-->
-                    <form method="post" action="contact.html">
-                      <div class="row clearfix">
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                          <input
-                            type="text"
-                            name="text"
-                            placeholder="Your Name"
-                            required
-                          />
-                        </div>
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                          <input
-                            type="text"
-                            name="text"
-                            placeholder="Company Name"
-                            required
-                          />
-                        </div>
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                          <input
-                            type="text"
-                            name="text"
-                            placeholder="Phone"
-                            required
-                          />
-                        </div>
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                          <select class="custom-select-box">
-                            <option>Select Needed Service</option>
-                            <option>Services One</option>
-                            <option>Services Two</option>
-                          </select>
-                        </div>
-                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                          <textarea placeholder="Your Message..."></textarea>
-                        </div>
-                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                          <button
-                            class="theme-btn btn-style-one"
-                            type="submit"
-                            name="submit-form"
-                          >
-                            Send Now
-                            <span
-                              class="icon flaticon-arrow-pointing-to-right"
-                            ></span>
-                          </button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a href="index.html" class="backhome"
-          >Back to Home
-          <span class="icon flaticon-arrow-pointing-to-right"></span
-        ></a>
-      </div>
-      <!-- End of Quote box -->
-
-      <!--Main Footer-->
+      <!-- ========== Footer ========== -->
       <footer class="main-footer">
         <div class="auto-container">
-          <!-- Widgets Section -->
           <div class="widgets-section">
             <div class="row clearfix">
-              <!-- Column -->
               <div class="column col-md-5 col-sm-6 col-xs-12">
                 <div class="footer-widget logo-widget">
-                  <!-- <div class="logo">
-                    <a href="index.html"
-                      ><img
-                        src="images/LogoDetail.png"
-                        alt=""
-                        style="max-width: 250px"
-                    /></a>
-                  </div> -->
                   <div class="widget-content">
                     <div class="text">
                       No 247, Block 12, Shahrak Ekbatan, Tehran, Iran
                     </div>
                     <ul class="list">
-                      <li>+98-9123442422, +98-2144652103</li>
+                      <li>+98-912-344-2422 | +98-21-44652103</li>
                       <li>
                         <a href="mailto:office@dgbahrami.com"
                           >office@dgbahrami.com</a
@@ -473,8 +365,7 @@
                       </li>
                     </ul>
                     <div class="timing">
-                      <span>Visit Our Office:</span>Monday - Saturday: 9.00am to
-                      5.00pm
+                      <span>Visit Our Office:</span> Mon-Sat 09:00-17:00
                     </div>
                     <ul class="social-icon-one">
                       <li>
@@ -484,7 +375,7 @@
                       </li>
                       <li>
                         <a
-                          href="https://www.linkedin.com/in/darou-gostaran-bahrami-24432a321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                          href="https://www.linkedin.com/in/darou-gostaran-bahrami-24432a321"
                           ><span class="fa fa-linkedin"></span
                         ></a>
                       </li>
@@ -498,48 +389,48 @@
                 </div>
               </div>
 
-              <!-- Column -->
               <div class="column col-md-4 col-sm-6 col-xs-12">
                 <div class="footer-widget links-widget">
-                  <div class="footer-title">
-                    <h2>Useful Links</h2>
-                  </div>
+                  <div class="footer-title"><h2>Useful Links</h2></div>
                   <div class="row clearfix">
                     <div class="column col-md-6 col-sm-6 col-xs-12">
                       <ul class="links">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="staff.html">Meet Our Team</a></li>
+                        <li><a href="about.html">About&nbsp;Us</a></li>
                         <li>
-                          <a href="business-profile.html">Business Profile</a>
+                          <a href="staff.html">Meet&nbsp;Our&nbsp;Team</a>
                         </li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li>
+                          <a href="business-profile.html"
+                            >Business&nbsp;Profile</a
+                          >
+                        </li>
+                        <li><a href="contact.html">Contact&nbsp;Us</a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <!-- Column -->
+              <!-- /column -->
             </div>
           </div>
         </div>
         <div class="footer-bottom style-two">
           <div class="auto-container">
             <div class="copyright">
-              Copyright © 2025 <a href="#">Darou Gostaran Bahrami</a>. All
-              rights reserved.
+              © 2025 Darou Gostaran Bahrami — All rights reserved.
             </div>
           </div>
         </div>
       </footer>
     </div>
-    <!--End pagewrapper-->
+    <!-- /.page-wrapper -->
 
-    <!--Scroll to top-->
+    <!-- Scroll to top -->
     <div class="scroll-to-top scroll-to-target" data-target="html">
       <span class="icon fa fa-angle-double-up"></span>
     </div>
 
+    <!-- ========== Scripts ========== -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.fancybox.js"></script>
@@ -549,5 +440,8 @@
     <script src="js/knob.js"></script>
     <script src="js/appear.js"></script>
     <script src="js/script.js"></script>
+
+    <!-- ⭐️ Language switcher -->
+    <script src="js/lang-switch.js"></script>
   </body>
 </html>

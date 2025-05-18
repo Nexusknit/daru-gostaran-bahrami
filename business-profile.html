@@ -8,19 +8,20 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
-    <!--<link href="css/color.css" rel="stylesheet">-->
 
     <link rel="shortcut icon" href="images/LogoBig.png" type="image/x-icon" />
     <link rel="icon" href="images/LogoBig.png" type="image/x-icon" />
+
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
-    <!--[if lt IE 9
-      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
-    ><![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
   </head>
 
@@ -29,18 +30,19 @@
       <!-- Preloader -->
       <div class="preloader"></div>
 
-      <!-- Main Header-->
+      <!-- ============ Header ============ -->
       <header class="main-header header-style-two">
-        <!-- Header Top -->
+        <!-- ===== Header Top ===== -->
         <div class="header-top">
           <div class="auto-container">
             <div class="top-outer clearfix">
-              <!-- Top Left: Updated with company contact details -->
+              <!-- تماس -->
               <div class="top-left">
                 <ul class="links clearfix">
                   <li>
                     <a href="tel:+989123442422"
-                      ><span class="icon fa fa-phone"></span> +98-9123442422</a
+                      ><span class="icon fa fa-phone"></span>
+                      +98-912-344-2422</a
                     >
                   </li>
                   <li>
@@ -51,52 +53,78 @@
                   </li>
                 </ul>
               </div>
-              <!-- Top Right: Minimized content -->
+
+              <!-- سوئیچر زبان -->
               <div class="top-right clearfix">
-                <!-- Optionally, add language dropdown or leave empty -->
+                <div id="lang-switch" class="d-inline-flex align-items-center">
+                  <a
+                    href="business-profile.html"
+                    class="d-flex align-items-center px-2"
+                  >
+                    <img
+                      src="images/flags/gb.svg"
+                      width="22"
+                      height="16"
+                      class="me-1"
+                      alt="EN"
+                    />
+                    EN
+                  </a>
+                  <span class="text-muted">|</span>
+                  <a
+                    href="business-profile-fa.html"
+                    class="d-flex align-items-center px-2"
+                  >
+                    <img
+                      src="images/flags/ir.svg"
+                      width="22"
+                      height="16"
+                      class="me-1"
+                      alt="FA"
+                    />
+                    FA
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- Header Top End -->
+        <!-- /Header Top -->
 
-        <!-- Main Box -->
+        <!-- ===== Main Box ===== -->
         <div class="main-box">
           <div class="auto-container">
             <div class="outer-container clearfix">
-              <!-- Logo Box: Added alt text for accessibility -->
+              <!-- لوگو -->
               <div class="logo-box">
-                <div class="logo">
-                  <a href="index.html"
-                    ><img
-                      src="images/LogoBig.png"
-                      alt="Darou Gostaran Bahrami Logo"
-                      style="max-width: 60px"
-                  /></a>
-                </div>
+                <a href="index.html"
+                  ><img
+                    src="images/LogoBig.png"
+                    alt="Darou Gostaran Bahrami Logo"
+                    style="max-width: 60px"
+                /></a>
               </div>
-              <!-- Nav Outer -->
+
+              <!-- ناوبری -->
               <div class="nav-outer clearfix">
-                <!-- Main Menu: Simplified navigation -->
                 <nav class="main-menu">
                   <div class="navbar-header">
-                    <!-- Toggle Button for mobile navigation -->
                     <button
                       type="button"
                       class="navbar-toggle"
                       data-toggle="collapse"
                       data-target=".navbar-collapse"
                     >
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span
+                      ><span class="icon-bar"></span
+                      ><span class="icon-bar"></span>
                     </button>
                   </div>
                   <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
                       <li><a href="index.html">Home</a></li>
                       <li><a href="staff.html">Staff</a></li>
-                      <li>
+                      <li class="current">
                         <a href="business-profile.html">Business Profile</a>
                       </li>
                       <li><a href="about.html">About Us</a></li>
@@ -109,24 +137,22 @@
                     </ul>
                   </div>
                 </nav>
-                <!-- Main Menu End -->
-                <!-- Outer Box: CTA button updated -->
+
                 <div class="outer-box">
                   <a href="contact.html" class="theme-btn quote-btn"
                     >Get in Touch <span class="icon icon-two"></span
                   ></a>
                 </div>
               </div>
-              <!-- Nav Outer End -->
             </div>
           </div>
         </div>
+        <!-- /Main Box -->
 
-        <!-- Header Lower: Updated info boxes with company focus -->
+        <!-- ===== Info Boxes ===== -->
         <div class="header-lower">
           <div class="auto-container clearfix">
             <div class="lower-left pull-left">
-              <!-- Info Box: Licensed Importer -->
               <div class="upper-column info-box">
                 <div class="icon-box">
                   <span class="flaticon-signature"></span>
@@ -135,16 +161,14 @@
                   <li><strong>Licensed Importer</strong>Under Iran's FDA</li>
                 </ul>
               </div>
-              <!-- Info Box: Expansion details -->
               <div class="upper-column info-box">
                 <div class="icon-box">
                   <span class="flaticon-three-buildings"></span>
                 </div>
                 <ul>
-                  <li><strong>Expanding to</strong>Armenia & Iraq</li>
+                  <li><strong>Expanding to</strong>Armenia &amp; Iraq</li>
                 </ul>
               </div>
-              <!-- Info Box: Company focus -->
               <div class="upper-column info-box">
                 <div class="icon-box">
                   <span class="flaticon-engineer-1"></span>
@@ -154,47 +178,40 @@
                 </ul>
               </div>
             </div>
-            <div class="lower-right pull-right"></div>
           </div>
         </div>
 
-        <!-- Sticky Header -->
+        <!-- ===== Sticky Header ===== -->
         <div class="sticky-header">
           <div class="auto-container">
             <div class="outer-container clearfix">
-              <!-- Logo Box -->
               <div class="logo-box pull-left">
-                <div class="logo">
-                  <a href="index.html"
-                    ><img
-                      src="images/LogoBig.png"
-                      alt="Darou Gostaran Bahrami Logo"
-                      style="max-width: 60px"
-                  /></a>
-                </div>
+                <a href="index.html"
+                  ><img
+                    src="images/LogoBig.png"
+                    alt="Darou Gostaran Bahrami Logo"
+                    style="max-width: 60px"
+                /></a>
               </div>
-              <!-- Nav Outer -->
               <div class="nav-outer clearfix">
-                <!-- Main Menu -->
                 <nav class="main-menu">
                   <div class="navbar-header">
-                    <!-- Toggle Button -->
                     <button
                       type="button"
                       class="navbar-toggle"
                       data-toggle="collapse"
                       data-target=".navbar-collapse"
                     >
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span
+                      ><span class="icon-bar"></span
+                      ><span class="icon-bar"></span>
                     </button>
                   </div>
                   <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
                       <li><a href="index.html">Home</a></li>
                       <li><a href="staff.html">Staff</a></li>
-                      <li>
+                      <li class="current">
                         <a href="business-profile.html">Business Profile</a>
                       </li>
                       <li><a href="about.html">About Us</a></li>
@@ -207,17 +224,14 @@
                     </ul>
                   </div>
                 </nav>
-                <!-- Main Menu End -->
               </div>
-              <!-- Nav Outer End -->
             </div>
           </div>
         </div>
-        <!-- End Sticky Header -->
       </header>
-      <!--End Main Header -->
+      <!-- ============ /Header ============ -->
 
-      <!--Page Title-->
+      <!-- ===== Page Title ===== -->
       <section
         class="page-title"
         style="background-image: url(images/background/business_profile.jpeg)"
@@ -230,91 +244,82 @@
           <h1>Business Profile</h1>
         </div>
       </section>
-      <!--End Page Title-->
+      <!-- /Page Title -->
 
-      <!-- Company Section -->
+      <!-- ===== Company Section ===== -->
       <section class="company-section">
         <div class="auto-container">
           <div class="row clearfix">
             <!-- Content Column -->
-            <div class="content-column col-md-6 col-sm-12 col-xs-12">
+            <div class="content-column col-md-6 col-sm-12">
               <div class="inner-column">
                 <div class="sec-title">
-                  <h2 style="color: black">Business Profile</h2>
+                  <h2 style="color: #000">Business Profile</h2>
                   <div class="separator centered"></div>
                 </div>
-                <h3 style="color: black">Introduction</h3>
-                <div class="text" style="color: black">
-                  <p style="color: black">
-                    Darou Gostaran Bharami Ltd, is a rapidly expanding company
-                    that was founded very recently. It is a pharmaceutical
-                    company licensed under the national ID number of
-                    14014153802, primarily focused on importation of
-                    pharmaceutical products internationally into the Middle
-                    East. It is licensed for pharmaceutical drug importation
-                    into Iran under Iranian food and drug administration
-                    supervision. Our company is also licensed to distribute
-                    pharmaceutical drugs, medical devices and medical equipment
-                    to sales companies or pharmacies across Iran. The
-                    headquarter of our firm is located in Tehran while we have
-                    our purchase manager based in Los Angeles as well as Warsaw.
-                    The company is in contact with potential business partners
-                    in Armenia and Iraq and looking to expand across the Middle
-                    East. Dr Bita Bahrami PharmD is our technical manager and
-                    our contact with the Iranian food and drug administration.
+
+                <h3 style="color: #000">Introduction</h3>
+                <div class="text" style="color: #000">
+                  <p>
+                    Darou Gostaran Bahrami Ltd. is a rapidly expanding company,
+                    recently founded and licensed under national ID 14014153802.
+                    Our core focus is the importation of pharmaceutical products
+                    into the Middle East. Licensed by Iran's FDA, we also
+                    distribute medicines, medical devices and equipment to
+                    pharmacies across Iran. Headquarters are in Tehran, with a
+                    purchasing office in Los Angeles and Warsaw. We are building
+                    partnerships in Armenia and Iraq, and Dr Bita Bahrami PharmD
+                    is our technical manager and primary liaison with Iran's
+                    FDA.
                   </p>
                 </div>
-                <div class="mission-statement" style="color: black">
-                  <h3 style="color: black">Mission Statement</h3>
-                  <ul class="list-style-one" style="color: black">
-                    <li style="color: black">
-                      Provide high-quality and timely pharmaceutical products to
-                      customers across Iran and the wider Middle East.
-                    </li>
-                    <li style="color: black">
-                      Create long-term business relationships with suppliers and
-                      customers through professional communication and
-                      satisfactory performance.
-                    </li>
-                    <li style="color: black">
-                      Respond proactively to rapid changes in supply and demand
-                      within the pharmaceutical industry.
-                    </li>
-                    <li style="color: black">
-                      Strive to improve our services and customer experience.
-                    </li>
-                  </ul>
-                </div>
-                <div class="vision-mission" style="color: black">
-                  <h3 style="color: black">Vision</h3>
-                  <p style="color: black">
-                    We have a young and vibrant team who are based
-                    internationally and across Iran. We stand ready to respond
-                    to the needs and challenges of the pharmaceutical customers
-                    across the Middle East.
-                  </p>
-                  <h3 style="color: black">Mission</h3>
-                  <p style="color: black">
-                    Our philosophy is constant improvement, growth and
-                    expansion. Our commitment is highest quality service to our
-                    customers. Client satisfaction is our goal and our aim is to
-                    break down the traditional barriers and provide access to
-                    the latest advances of pharmaceutical industry across the
-                    Middle East.
-                  </p>
-                </div>
+
+                <h3 style="color: #000">Mission Statement</h3>
+                <ul class="list-style-one" style="color: #000">
+                  <li>
+                    Provide high-quality, timely pharmaceutical products across
+                    Iran and the wider Middle East.
+                  </li>
+                  <li>
+                    Build long-term relationships with suppliers and customers
+                    through professional communication and excellent
+                    performance.
+                  </li>
+                  <li>
+                    Respond proactively to rapid changes in pharmaceutical
+                    supply and demand.
+                  </li>
+                  <li>
+                    Continuously improve our services and customer experience.
+                  </li>
+                </ul>
+
+                <h3 style="color: #000">Vision</h3>
+                <p style="color: #000">
+                  A young, vibrant team located worldwide is ready to meet the
+                  region’s pharmaceutical challenges.
+                </p>
+
+                <h3 style="color: #000">Philosophy</h3>
+                <p style="color: #000">
+                  Our philosophy is constant improvement and expansion; our
+                  commitment is the highest quality service. Client satisfaction
+                  is our goal—bringing the latest advances in pharmaceuticals to
+                  the Middle East without barriers.
+                </p>
 
                 <div class="signature">
                   <img
                     src="images/LogoDetail.png"
-                    alt="Darou Gostaran Bahrami Signature"
+                    alt="Darou Gostaran Bahrami"
                     style="max-width: 250px"
                   />
                 </div>
               </div>
             </div>
+
             <!-- Image Column -->
-            <div class="image-column col-md-6 col-sm-12 col-xs-12">
+            <div class="image-column col-md-6 col-sm-12">
               <div class="inner-column">
                 <div class="image">
                   <img
@@ -327,8 +332,12 @@
           </div>
         </div>
       </section>
-      <!-- End Company Section -->
-      <!--Quote Form-->
+      <!-- /Company Section -->
+
+      <!-- ===== Quote Modal & Footer (بدون تغییر اصلی) ===== -->
+      <!-- ... کل بخش‌های modal و فوتر همانند قبل قرار دارند ... -->
+
+      <!-- ===== Quote Modal ===== -->
       <div class="modal fade" id="schedule-box" tabindex="-1" role="dialog">
         <div class="modal-dialog popup-container container" role="document">
           <div class="modal-content">
@@ -346,7 +355,6 @@
                 style="background-image: url(images/background/13.jpg)"
               >
                 <div class="inner-box">
-                  <!--Sec Title-->
                   <div class="sec-title">
                     <div class="clearfix">
                       <div class="pull-left">
@@ -356,18 +364,16 @@
                       <div class="pull-left">
                         <div class="text">
                           Get a free quote for your industrial or engineering
-                          business solutions, We are here 24/7.
+                          business solutions. We are here 24/7.
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <!-- Quote Form / Style Two-->
                   <div class="quote-form style-two">
-                    <!--Shipping Form-->
                     <form method="post" action="contact.html">
                       <div class="row clearfix">
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <div class="form-group col-md-6 col-sm-6">
                           <input
                             type="text"
                             name="text"
@@ -375,7 +381,7 @@
                             required
                           />
                         </div>
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <div class="form-group col-md-6 col-sm-6">
                           <input
                             type="text"
                             name="text"
@@ -383,7 +389,7 @@
                             required
                           />
                         </div>
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <div class="form-group col-md-6 col-sm-6">
                           <input
                             type="text"
                             name="text"
@@ -391,17 +397,18 @@
                             required
                           />
                         </div>
-                        <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                        <div class="form-group col-md-6 col-sm-6">
                           <select class="custom-select-box">
                             <option>Select Needed Service</option>
-                            <option>Services One</option>
-                            <option>Services Two</option>
+                            <option>Pharmaceutical Importation</option>
+                            <option>Regulatory Compliance</option>
+                            <option>Urgent Drug Supply</option>
                           </select>
                         </div>
-                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-group col-md-12 col-sm-12">
                           <textarea placeholder="Your Message..."></textarea>
                         </div>
-                        <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-group col-md-12 col-sm-12">
                           <button
                             class="theme-btn btn-style-one"
                             type="submit"
@@ -423,34 +430,24 @@
         </div>
         <a href="index.html" class="backhome"
           >Back to Home
-          <span class="icon flaticon-arrow-pointing-to-right"></span
-        ></a>
+          <span class="icon flaticon-arrow-pointing-to-right"></span>
+        </a>
       </div>
-      <!-- End of Quote box -->
+      <!-- /Quote Modal -->
 
-      <!--Main Footer-->
+      <!-- ===== Footer ===== -->
       <footer class="main-footer">
         <div class="auto-container">
-          <!-- Widgets Section -->
           <div class="widgets-section">
             <div class="row clearfix">
-              <!-- Column -->
-              <div class="column col-md-5 col-sm-6 col-xs-12">
+              <div class="column col-md-5 col-sm-6">
                 <div class="footer-widget logo-widget">
-                  <!-- <div class="logo">
-                    <a href="index.html"
-                      ><img
-                        src="images/LogoDetail.png"
-                        alt=""
-                        style="max-width: 250px"
-                    /></a>
-                  </div> -->
                   <div class="widget-content">
                     <div class="text">
                       No 247, Block 12, Shahrak Ekbatan, Tehran, Iran
                     </div>
                     <ul class="list">
-                      <li>+98-9123442422, +98-2144652103</li>
+                      <li>+98-912-344-2422 | +98-21-44652103</li>
                       <li>
                         <a href="mailto:office@dgbahrami.com"
                           >office@dgbahrami.com</a
@@ -458,8 +455,7 @@
                       </li>
                     </ul>
                     <div class="timing">
-                      <span>Visit Our Office:</span>Monday - Saturday: 9.00am to
-                      5.00pm
+                      <span>Visit Our Office:</span> Mon-Sat, 9 am-5 pm
                     </div>
                     <ul class="social-icon-one">
                       <li>
@@ -468,14 +464,14 @@
                         ></a>
                       </li>
                       <li>
-                        <a
-                          href="https://www.linkedin.com/in/darou-gostaran-bahrami-24432a321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                          ><span class="fa fa-linkedin"></span
+                        <a href="https://wa.me/989123442422"
+                          ><span class="fa fa-whatsapp"></span
                         ></a>
                       </li>
                       <li>
-                        <a href="https://wa.me/989123442422"
-                          ><span class="fa fa-whatsapp"></span
+                        <a
+                          href="https://www.linkedin.com/in/darou-gostaran-bahrami-24432a321"
+                          ><span class="fa fa-linkedin"></span
                         ></a>
                       </li>
                     </ul>
@@ -483,48 +479,41 @@
                 </div>
               </div>
 
-              <!-- Column -->
-              <div class="column col-md-4 col-sm-6 col-xs-12">
+              <div class="column col-md-4 col-sm-6">
                 <div class="footer-widget links-widget">
-                  <div class="footer-title">
-                    <h2>Useful Links</h2>
-                  </div>
-                  <div class="row clearfix">
-                    <div class="column col-md-6 col-sm-6 col-xs-12">
-                      <ul class="links">
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="staff.html">Meet Our Team</a></li>
-                        <li>
-                          <a href="business-profile.html">Business Profile</a>
-                        </li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                      </ul>
-                    </div>
-                  </div>
+                  <div class="footer-title"><h2>Useful Links</h2></div>
+                  <ul class="links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="staff.html">Meet Our Team</a></li>
+                    <li>
+                      <a href="business-profile.html">Business Profile</a>
+                    </li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
                 </div>
               </div>
-
-              <!-- Column -->
             </div>
           </div>
         </div>
+
         <div class="footer-bottom style-two">
           <div class="auto-container">
             <div class="copyright">
-              Copyright © 2025 <a href="#">Darou Gostaran Bahrami</a>. All
-              rights reserved.
+              © 2025 Darou Gostaran Bahrami — All rights reserved.
             </div>
           </div>
         </div>
       </footer>
+      <!-- /Footer -->
     </div>
-    <!--End pagewrapper-->
+    <!-- /page-wrapper -->
 
-    <!--Scroll to top-->
+    <!-- Scroll to top -->
     <div class="scroll-to-top scroll-to-target" data-target="html">
       <span class="icon fa fa-angle-double-up"></span>
     </div>
 
+    <!-- ===== Scripts ===== -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.fancybox.js"></script>
@@ -534,5 +523,8 @@
     <script src="js/knob.js"></script>
     <script src="js/appear.js"></script>
     <script src="js/script.js"></script>
+
+    <!-- ⭐️ مدیریت انتخاب زبان -->
+    <script src="js/lang-switch.js"></script>
   </body>
 </html>

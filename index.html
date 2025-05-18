@@ -3,38 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <title>DGBahrami Pharmaceutical Company | Homepage</title>
+
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet" />
-    <link
-      href="plugins/revolution/css/settings.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="plugins/revolution/css/layers.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="plugins/revolution/css/navigation.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="plugins/revolution/css/settings.css" rel="stylesheet" />
+    <link href="plugins/revolution/css/layers.css" rel="stylesheet" />
+    <link href="plugins/revolution/css/navigation.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
-    <!--<link href="css/color.css" rel="stylesheet">-->
+    <!-- <link href="css/color.css" rel="stylesheet" /> -->
 
     <link rel="shortcut icon" href="images/LogoBig.png" type="image/x-icon" />
     <link rel="icon" href="images/LogoBig.png" type="image/x-icon" />
+
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
-    <!--[if lt IE 9
-      ]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
-    ><![endif]-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
     <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
   </head>
 
@@ -49,12 +39,13 @@
         <div class="header-top">
           <div class="auto-container">
             <div class="top-outer clearfix">
-              <!-- Top Left: Updated with company contact details -->
+              <!-- Contact (Left) -->
               <div class="top-left">
                 <ul class="links clearfix">
                   <li>
                     <a href="tel:+989123442422"
-                      ><span class="icon fa fa-phone"></span> +98-9123442422</a
+                      ><span class="icon fa fa-phone"></span>
+                      +98-912-344-2422</a
                     >
                   </li>
                   <li>
@@ -65,50 +56,73 @@
                   </li>
                 </ul>
               </div>
-              <!-- Top Right: Minimized content -->
+
+              <!-- Language Switcher (Right) -->
               <div class="top-right clearfix">
-                <!-- Optionally, add language dropdown or leave empty -->
+                <div id="lang-switch" class="d-inline-flex align-items-center">
+                  <!-- current EN page -->
+                  <a href="index.html" class="d-flex align-items-center px-2">
+                    <img
+                      src="images/flags/gb.svg"
+                      width="22"
+                      height="16"
+                      class="me-1"
+                      alt="EN"
+                    />EN
+                  </a>
+                  <span class="text-muted">|</span>
+                  <!-- link to FA version -->
+                  <a
+                    href="index-fa.html"
+                    class="d-flex align-items-center px-2"
+                  >
+                    <img
+                      src="images/flags/ir.svg"
+                      width="22"
+                      height="16"
+                      class="me-1"
+                      alt="FA"
+                    />FA
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- Header Top End -->
+        <!-- /Header Top -->
 
-        <!-- Main Box -->
+        <!-- Main Box (Logo + Navbar) -->
         <div class="main-box">
           <div class="auto-container">
             <div class="outer-container clearfix">
-              <!-- Logo Box: Added alt text for accessibility -->
+              <!-- Logo -->
               <div class="logo-box">
-                <div class="logo">
-                  <a href="index.html"
-                    ><img
-                      src="images/LogoBig.png"
-                      alt="Darou Gostaran Bahrami Logo"
-                      style="max-width: 60px"
-                  /></a>
-                </div>
+                <a href="index.html"
+                  ><img
+                    src="images/LogoBig.png"
+                    alt="Darou Gostaran Bahrami Logo"
+                    style="max-width: 60px"
+                /></a>
               </div>
-              <!-- Nav Outer -->
+
+              <!-- Navigation -->
               <div class="nav-outer clearfix">
-                <!-- Main Menu: Simplified navigation -->
                 <nav class="main-menu">
                   <div class="navbar-header">
-                    <!-- Toggle Button for mobile navigation -->
                     <button
                       type="button"
                       class="navbar-toggle"
                       data-toggle="collapse"
                       data-target=".navbar-collapse"
                     >
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span
+                      ><span class="icon-bar"></span
+                      ><span class="icon-bar"></span>
                     </button>
                   </div>
                   <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
-                      <li><a href="index.html">Home</a></li>
+                      <li class="current"><a href="index.html">Home</a></li>
                       <li><a href="staff.html">Staff</a></li>
                       <li>
                         <a href="business-profile.html">Business Profile</a>
@@ -123,24 +137,21 @@
                     </ul>
                   </div>
                 </nav>
-                <!-- Main Menu End -->
-                <!-- Outer Box: CTA button updated -->
+
                 <div class="outer-box">
                   <a href="contact.html" class="theme-btn quote-btn"
                     >Get in Touch <span class="icon icon-two"></span
                   ></a>
                 </div>
               </div>
-              <!-- Nav Outer End -->
             </div>
           </div>
         </div>
 
-        <!-- Header Lower: Updated info boxes with company focus -->
+        <!-- Info Boxes -->
         <div class="header-lower">
           <div class="auto-container clearfix">
             <div class="lower-left pull-left">
-              <!-- Info Box: Licensed Importer -->
               <div class="upper-column info-box">
                 <div class="icon-box">
                   <span class="flaticon-signature"></span>
@@ -149,16 +160,16 @@
                   <li><strong>Licensed Importer</strong>Under Iran's FDA</li>
                 </ul>
               </div>
-              <!-- Info Box: Expansion details -->
+
               <div class="upper-column info-box">
                 <div class="icon-box">
                   <span class="flaticon-three-buildings"></span>
                 </div>
                 <ul>
-                  <li><strong>Expanding to</strong>Armenia & Iraq</li>
+                  <li><strong>Expanding to</strong>Armenia &amp; Iraq</li>
                 </ul>
               </div>
-              <!-- Info Box: Company focus -->
+
               <div class="upper-column info-box">
                 <div class="icon-box">
                   <span class="flaticon-engineer-1"></span>
@@ -168,7 +179,6 @@
                 </ul>
               </div>
             </div>
-            <div class="lower-right pull-right"></div>
           </div>
         </div>
 
@@ -176,37 +186,31 @@
         <div class="sticky-header">
           <div class="auto-container">
             <div class="outer-container clearfix">
-              <!-- Logo Box -->
               <div class="logo-box pull-left">
-                <div class="logo">
-                  <a href="index.html"
-                    ><img
-                      src="images/LogoBig.png"
-                      alt="Darou Gostaran Bahrami Logo"
-                      style="max-width: 60px"
-                  /></a>
-                </div>
+                <a href="index.html"
+                  ><img
+                    src="images/LogoBig.png"
+                    alt="Darou Gostaran Bahrami Logo"
+                    style="max-width: 60px"
+                /></a>
               </div>
-              <!-- Nav Outer -->
               <div class="nav-outer clearfix">
-                <!-- Main Menu -->
                 <nav class="main-menu">
                   <div class="navbar-header">
-                    <!-- Toggle Button -->
                     <button
                       type="button"
                       class="navbar-toggle"
                       data-toggle="collapse"
                       data-target=".navbar-collapse"
                     >
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span
+                      ><span class="icon-bar"></span
+                      ><span class="icon-bar"></span>
                     </button>
                   </div>
                   <div class="navbar-collapse collapse clearfix">
                     <ul class="navigation clearfix">
-                      <li><a href="index.html">Home</a></li>
+                      <li class="current"><a href="index.html">Home</a></li>
                       <li><a href="staff.html">Staff</a></li>
                       <li>
                         <a href="business-profile.html">Business Profile</a>
@@ -221,13 +225,10 @@
                     </ul>
                   </div>
                 </nav>
-                <!-- Main Menu End -->
               </div>
-              <!-- Nav Outer End -->
             </div>
           </div>
         </div>
-        <!-- End Sticky Header -->
       </header>
       <!-- End Main Header -->
 
@@ -1139,11 +1140,13 @@
       <span class="icon fa fa-angle-double-up"></span>
     </div>
 
+    <!-- Scripts -->
     <script
       data-cfasync="false"
       src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
     ></script>
     <script src="js/jquery.js"></script>
+
     <!-- Revolution Slider -->
     <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
     <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
@@ -1167,6 +1170,10 @@
     <script src="js/appear.js"></script>
     <script src="js/script.js"></script>
 
+    <!-- ⭐️ Language persistence / redirect helper -->
+    <script src="js/lang-switch.js"></script>
+
+    <!-- Cloudflare (همان اسکریپت قبلی) -->
     <script>
       (function () {
         function c() {
