@@ -17,3 +17,7 @@
 /* در صورت نیاز به چرخش آیکن‌های فلش FontAwesome */
 [dir="rtl"] .fa-chevron-right:before { content: "\f053"; } /*←*/
 [dir="rtl"] .fa-chevron-left:before  { content: "\f054"; } /*→*/
+
+#lang-switch {
+  direction: ltr;
+}
