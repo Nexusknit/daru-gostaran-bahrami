@@ -5,8 +5,17 @@
     <title>DGBahrami Pharmaceutical Company | Homepage</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css" />
-    <script src="bootstrap5/js/bootstrap.bundle.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link href="css/bootstrap-touch-slider.css" rel="stylesheet" media="all" />
 
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="plugins/revolution/css/settings.css" rel="stylesheet" />
@@ -235,7 +244,7 @@
       <!-- End Main Header -->
 
       <!-- Main Slider -->
-      <div
+      <!-- <div
         id="carouselExampleCaptions"
         class="carousel slide"
         data-bs-ride="false"
@@ -330,6 +339,124 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div> -->
+
+      <!-- new slider -->
+      <div
+        id="bootstrap-touch-slider"
+        class="carousel bs-slider fade control-round indicators-line"
+        data-ride="carousel"
+        data-pause="hover"
+        data-interval="false"
+      >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li
+            data-target="#bootstrap-touch-slider"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+          <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper For Slides -->
+        <div class="carousel-inner" role="listbox">
+          <!-- Third Slide -->
+          <div class="item active">
+            <!-- Slide Background -->
+            <img
+              src="images/main-slider/btsl950.jpg"
+              alt="Bootstrap Touch Slider"
+              class="slide-image"
+            />
+            <div class="bs-slider-overlay"></div>
+
+            <div class="container">
+              <div class="row">
+                <!-- Slide Text Layer -->
+                <div class="slide-text slide_style_left">
+                  <h1 data-animation="animated zoomInRight">
+                    Leading Provider of Pharmaceutical Solutions in the Middle
+                    East
+                  </h1>
+                  <p data-animation="animated fadeInLeft">
+                    Darou Gostaran Bahrami is dedicated to filling the gaps in
+                    pharmaceutical product provision throughout the Middle East.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Slide -->
+
+          <!-- Second Slide -->
+          <div class="item">
+            <!-- Slide Background -->
+            <img
+              src="images/main-slider/bjsl950.jpg"
+              alt="Bootstrap Touch Slider"
+              class="slide-image"
+            />
+            <div class="bs-slider-overlay"></div>
+            <!-- Slide Text Layer -->
+            <div class="slide-text slide_style_center">
+              <h1 data-animation="animated flipInX">
+                Committed to Quality and Compliance
+              </h1>
+              <p data-animation="animated lightSpeedIn">
+                Licensed under Iran's Food and Drug Administration, we ensure
+                the highest standards in pharmaceutical importation.
+              </p>
+            </div>
+          </div>
+          <!-- End of Slide -->
+
+          <!-- Third Slide -->
+          <div class="item">
+            <!-- Slide Background -->
+            <img
+              src="images/main-slider/dgsl950.jpg"
+              alt="Bootstrap Touch Slider"
+              class="slide-image"
+            />
+            <div class="bs-slider-overlay"></div>
+            <!-- Slide Text Layer -->
+            <div class="slide-text slide_style_right">
+              <h1 data-animation="animated zoomInLeft">
+                Expanding Horizons Across the Middle East
+              </h1>
+              <p data-animation="animated fadeInRight">
+                With plans to open branches in Armenia and Iraq, we are growing
+                to meet regional pharmaceutical needs.
+              </p>
+            </div>
+          </div>
+          <!-- End of Slide -->
+        </div>
+        <!-- End of Wrapper For Slides -->
+
+        <!-- Left Control -->
+        <a
+          class="left carousel-control"
+          href="#bootstrap-touch-slider"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="fa fa-angle-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <!-- Right Control -->
+        <a
+          class="right carousel-control"
+          href="#bootstrap-touch-slider"
+          role="button"
+          data-slide="next"
+        >
+          <span class="fa fa-angle-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
       <!-- End Main Slider -->
 
@@ -834,6 +961,12 @@
       <span class="icon fa fa-angle-double-up"></span>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap-touch-slider.js"></script>
+    <script type="text/javascript">
+      $("#bootstrap-touch-slider").bsTouchSlider();
+    </script>
+
     <!-- Scripts -->
     <script
       data-cfasync="false"
@@ -854,7 +987,6 @@
     <script src="plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script src="js/main-slider-script.js"></script>
-    <script src="bootstrap5/js/bootstrap.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.fancybox.js"></script>
