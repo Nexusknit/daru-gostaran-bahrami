@@ -11923,7 +11923,7 @@ img {
   align-items: flex-start;
 }
 
-[dir="rtl"] .carousel-caption.custom-caption
+html[dir="rtl"] .carousel-caption.custom-caption
 .carousel-caption.custom-caption h3 .carousel-caption.custom-caption p {
   text-align: right;
   align-items: flex-end;
