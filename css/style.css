@@ -11899,18 +11899,30 @@ img {
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
 }
 
+.carousel-caption.custom-caption h3 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.carousel-caption.custom-caption p {
+  font-size: 25px;
+  font-weight: normal;
+}
+
 .carousel-inner > .item.active .carousel-caption.custom-caption {
   opacity: 1;
   transform: translateY(0);
   transition-delay: 0.5s;
 }
 
-html[dir="ltr"] .carousel-caption.custom-caption {
+html[dir="ltr"] .carousel-caption.custom-caption
+.carousel-caption.custom-caption h3 .carousel-caption.custom-caption p {
   text-align: left;
   align-items: flex-start;
 }
 
-[dir="rtl"] .carousel-caption.custom-caption {
+[dir="rtl"] .carousel-caption.custom-caption
+.carousel-caption.custom-caption h3 .carousel-caption.custom-caption p {
   text-align: right;
   align-items: flex-end;
 }
