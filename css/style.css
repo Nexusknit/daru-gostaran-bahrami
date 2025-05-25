@@ -11917,11 +11917,14 @@ img {
   transition-delay: 0.5s;
 }
 
-html[dir="rtl"] .carousel-caption.custom-caption
-html[dir="rtl"] .carousel-caption.custom-caption h3 
+html[dir="rtl"] .carousel-caption.custom-caption {
+  align-items: flex-end;
+  text-align: right;
+}
+
+html[dir="rtl"] .carousel-caption.custom-caption h3,
 html[dir="rtl"] .carousel-caption.custom-caption p {
   text-align: right;
-  align-items: flex-end;
 }
 
 .carousel-caption.custom-caption
