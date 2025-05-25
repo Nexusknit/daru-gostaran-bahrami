@@ -11876,8 +11876,6 @@ img {
 
 
 /**************************  Custom **************************/
-
-
 .carousel-caption.custom-caption {
   position: absolute;
   top: 0;
@@ -11887,7 +11885,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
   padding: 0 10%;
   opacity: 0;
   transform: translateY(20px);
@@ -11897,13 +11894,13 @@ img {
 .carousel-caption.custom-caption h3,
 .carousel-caption.custom-caption p {
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
-  text-align: left;
-  align-items: flex-start;
+  margin: 0;
 }
 
 .carousel-caption.custom-caption h3 {
   font-size: 38px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .carousel-caption.custom-caption p {
@@ -11911,25 +11908,25 @@ img {
   font-weight: normal;
 }
 
+/* افکت فعال فقط وقتی اسلاید فعال است */
 .carousel-inner > .item.active .carousel-caption.custom-caption {
   opacity: 1;
   transform: translateY(0);
   transition-delay: 0.5s;
 }
 
-html[dir="rtl"] .carousel-caption.custom-caption {
-  align-items: flex-end;
-  text-align: right;
-}
-
-html[dir="rtl"] .carousel-caption.custom-caption h3,
-html[dir="rtl"] .carousel-caption.custom-caption p {
-  text-align: right;
-}
-
-.carousel-caption.custom-caption
-.carousel-caption.custom-caption h3 .carousel-caption.custom-caption p {
+/* نسخه انگلیسی – چپ‌چین و سمت چپ */
+html[dir="ltr"] .carousel-caption.custom-caption {
   text-align: left;
   align-items: flex-start;
+  padding-left: 12%;
+  padding-right: 0;
 }
 
+/* نسخه فارسی – راست‌چین و سمت راست */
+html[dir="rtl"] .carousel-caption.custom-caption {
+  text-align: right;
+  align-items: flex-end;
+  padding-right: 12%;
+  padding-left: 0;
+}
