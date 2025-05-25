@@ -11915,7 +11915,7 @@ img {
   transition-delay: 0.5s;
 }
 
-html[dir="ltr"] .carousel-caption.custom-caption
+.carousel-caption.custom-caption
 .carousel-caption.custom-caption h3 .carousel-caption.custom-caption p {
   text-align: left;
   align-items: flex-start;
