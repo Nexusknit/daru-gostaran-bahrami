@@ -11899,15 +11899,30 @@ img {
   margin: 0;
 }
 
-.carousel-caption.custom-caption h3 {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 10px;
+@media only screen and (min-width: 768px) {
+    .carousel-caption.custom-caption h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .carousel-caption.custom-caption p {
+    font-size: 26px;
+    font-weight: normal;
+  }
 }
 
-.carousel-caption.custom-caption p {
-  font-size: 20px;
-  font-weight: normal;
+@media only screen and (min-width: 768px) {
+    .carousel-caption.custom-caption h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .carousel-caption.custom-caption p {
+    font-size: 12px;
+    font-weight: normal;
+  }
 }
 
 .carousel-inner > .item.active .carousel-caption.custom-caption {
