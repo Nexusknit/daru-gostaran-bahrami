@@ -2050,6 +2050,46 @@ img {
   line-height: 1.7em;
 }
 
+/*
+  Bootstrap Main Carousel (EN/FA)
+  Enforce a consistent 1425x950 (1.5:1) aspect ratio for all slides
+  so the three images render uniformly across viewports.
+*/
+#mainCarouselEn,
+#mainCarouselFa {
+  position: relative;
+}
+
+#mainCarouselEn .carousel-inner,
+#mainCarouselFa .carousel-inner {
+  position: relative;
+}
+
+#mainCarouselEn .item,
+#mainCarouselFa .item {
+  position: relative;
+  width: 100%;
+  /* 950 / 1425 = 0.6666667 => 66.6667% */
+  padding-top: 66.6667%;
+  overflow: hidden;
+}
+
+#mainCarouselEn .item img,
+#mainCarouselFa .item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Optional: keep captions above the image overlay */
+#mainCarouselEn .carousel-caption.custom-caption,
+#mainCarouselFa .carousel-caption.custom-caption {
+  z-index: 2;
+}
+
 .main-slider .text.style-two {
   color: #848484;
 }
