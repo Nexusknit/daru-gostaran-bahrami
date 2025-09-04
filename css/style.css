@@ -2084,6 +2084,17 @@ img {
   object-fit: cover;
 }
 
+/* Restore Bootstrap's absolute positioning during slide transitions
+   Our ID-based rules above increase specificity; ensure .next/.prev stay absolute */
+#mainCarouselEn .carousel-inner > .item.next,
+#mainCarouselEn .carousel-inner > .item.prev,
+#mainCarouselFa .carousel-inner > .item.next,
+#mainCarouselFa .carousel-inner > .item.prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 /* Optional: keep captions above the image overlay */
 #mainCarouselEn .carousel-caption.custom-caption,
 #mainCarouselFa .carousel-caption.custom-caption {
