@@ -2070,7 +2070,7 @@ img {
   position: relative;
   width: 100%;
   /* 950 / 1425 = 0.6666667 => 66.6667% */
-  padding-top: 66.6667%;
+  padding-top: 66.6666%;
   overflow: hidden;
 }
 
